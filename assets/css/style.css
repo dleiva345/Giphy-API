@@ -1,0 +1,31 @@
+
+body, html {
+    height: 100%;
+}
+body {
+    background-image: url('../images/clouds.png');
+    background-position: center;
+    background-size: cover;
+    height: 100%;
+}
+
+h1 {
+    text-align: center;
+    font-weight: bold;
+  
+}
+
+
+
+.gifImages {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+}
+
+p {
+    text-align: center;
+    font-weight: bold;
+    font-size: 20pt;
+}

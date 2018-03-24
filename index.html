@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>GIFSTATIC</title>
+   
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    <link rel="stylesheet" type="text/css" media="screen" href="assets/css/style.css" />
+    
+    <!--Bootstrap-->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+  
+
+</head>
+<body>
+
+<div class="container">
+    <div class="jumbotron">
+        <h1>Giftastic</h1> 
+    </div>
+   
+    
+  <div class="buttons-display">  
+    <button data-show="the Office" class="btn btn-info btn-lg">The Office</button>
+    <button data-show="stranger things" class="btn btn-info btn-lg">Stranger Things</button>
+    <button data-show="how i met your mother" class="btn btn-info btn-lg">How I met your mother</button>
+    <button data-show="friends" class="btn btn-info btn-lg">Friends</button>
+    <button data-show="That 70s show" class="btn btn-info btn-lg">That 70's Show</button>
+    <button data-show="parks and rec" class="btn btn-info btn-lg">Parks and Recreation</button>
+    <button data-show="community" class="btn btn-info btn-lg">Community</button>
+  
+  </div>
+
+
+ <div id="display-gifs"></div>
+ <br>   
+
+
+ <form id="addTvShow-form">
+    <label for="show-input">Add Another Tv Show</label>
+    <input type="text" id="show-input">
+    <br>
+
+    <input id="add-show" type="submit" value="Submit">
+    </form>
+
+ <!--JQuery-->
+ <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+ <!--JavaScript-->
+ <script src="assets/js/app.js"></script>               
+</body>
+</html>
