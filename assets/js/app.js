@@ -38,7 +38,7 @@
 
           $("#display-gifs").prepend(newDiv);
         }
-        /
+        
         $(".gifImages").on("click", function() {
 
           var state = $(this).attr("data-state");
@@ -55,33 +55,7 @@
           }
         })
       });
-      //adding button per user input 
-      function renderButtons() {
-
-        $(".buttons-display").empty();
-
-        for (var i = 0; i < tvShows.length; i++) {
-          //Creating new btn tag and adding attributes 
-          var newBtn = $("<button>");
-          newBtn.addClass("btn btn-info btn-lg");
-          newBtn.attr("data-show");
-          newBtn.text(tvShows[i]);
-          $(".buttons-display").append(newBtn);
-
-          console.log(button-display);
-        }
-      }
-      $("#add-show").on("click", function(event) {
-        event.preventDefault();
-
-        var newTvShow = $("#show-input").val().trim();
-
-        tvShows.push(newTvShow);
-
-        renderButtons();
-
-      });
-     
+      
 
   });
 
